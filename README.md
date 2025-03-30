@@ -18,9 +18,9 @@ Desde el punto de vista de Sistemas Dinámicos, su comportamiento se estudia usa
 
 **Ley de Hooke**
 
-\[
+$$
 F = -k x
-\]
+$$
 
 Se utiliza siempre manteniendo el mismo marco de referencia. En el curso vamos a trabajar resortes lineales.
 
