@@ -24,6 +24,11 @@ $$
 
 Se utiliza siempre manteniendo el mismo marco de referencia. En el curso vamos a trabajar resortes lineales.
 
+$$
+\textcolor{blue}{\textbf{Amortiguadores}}
+$$
+
+
 # 17/03/2025
 
 
