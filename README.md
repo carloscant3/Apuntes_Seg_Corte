@@ -1,9 +1,19 @@
 # Apuntes segundo corte - Sistemas Dinamicos
 
 
-**José Manuel Ortiz Soler - 121769**/
-**Nicolas Cortes Triana - 120883**/
-**Carlos Andrés Cante Saavedra - 122248**
+$$
+José Manuel Ortiz Soler - 121769
+$$
+
+
+$$
+Nicolas Cortes Triana - 120883
+$$
+
+
+$$
+Carlos Andrés Cante Saavedra - 122248
+$$
 
 
 
