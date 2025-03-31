@@ -50,8 +50,12 @@ $$
 $$
 
 
-$$
 ![image](https://github.com/user-attachments/assets/d964cf92-942f-4673-895b-9982b4991a87)
+
+Fenomeno fisico:
+
+$$
+F_R = K_2 \cdot X
 $$
 
 
