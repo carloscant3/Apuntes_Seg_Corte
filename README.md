@@ -89,7 +89,7 @@ $$
 
 
 $$
-**Ejemplo**
+**Ejemplo 1**
 $$
 
 Encuéntrese la constante de resorte equivalente para el sistema
@@ -183,6 +183,11 @@ $$
 $$
 
 
+$$
+**Ejemplo 2**
+$$
+
+
 # 17/03/2025
 
 $$
@@ -219,9 +224,57 @@ $$
 $$
 
 
+$$
+**Ejemplo 2**
+$$
+
 
 
 # 21/03/2025
+
+**Sistemas Rotacionales**
+
+Es un fenomeno mecanico pero la naturaleza del movimiento cambia, ahora es movimiento angular
+
+$$
+**Ejemplo 1**
+$$
+
+
+Un cilindro hom~o con radio de 1 m tiene una masa de 100 kg.
+cuál será su aceleración angular si se le aplica un par externo de 10 N-m alrededor del
+eje del cilindro? 
+
+El momento de inercia J es
+
+
+$$
+J = \frac{1}{2} mR^2 = \frac{1}{2} \times 100 \times 1^2 = 50 \, \text{kg·m}^2
+$$
+
+La ecuación de movimiento del sistema es:
+
+$$
+J\ddot{\theta} = T
+$$
+
+donde \( \ddot{\theta} \) es la aceleración angular. Por lo tanto:
+
+$$
+\ddot{\theta} = \frac{T}{J} = \frac{10 \, \text{N·m}}{50 \, \text{kg·m}^2} = 0.2 \, \text{rad/s}^2
+$$
+
+(Nótese que al examinar las unidades de esta última ecuación, vemos que la unidad
+de 0 no es S-"ino rad/r2. Este uso aparece porque al escribir rad/~-~ se indica que el
+ángulo 8 está medido en radianes. El radián es una medida del ángulo y es la relación
+de la longitud del arco con respecto al radio. Así pues, medido en radianes, el ángulo
+es un número puro. En el manejo ,algebraico de upidades la unidad "radián" se añade
+cuando sea necesario.)
+
+
+$$
+**Ejemplo 2**
+$$
 
 
 # 28/03/2025
