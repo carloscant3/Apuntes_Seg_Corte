@@ -185,6 +185,41 @@ $$
 
 # 17/03/2025
 
+$$
+Ejemplo 1
+$$
+
+Una masa m está suspendida por dos resortes en la Fig. 2-40.
+Uno de los resortes es una viga en cantilever con constante de resorte k, si se carga
+transversalmente en su extremo. El otro resorte es uno de tensión-compresión con
+constante de resorte k2. Determínese la deflexiíin estática 6 de la masa cuando se la
+mide desde la posición en la cual el resorte no tiene carga. Determínese también la frecuencia natural del sistema. 
+
+
+![image](https://github.com/user-attachments/assets/c8190496-ec0a-49a3-9278-57a1cd5048b5)
+
+
+En cierto sentido los dos resortes están conectados en serie, la constante
+de resorte equivalente k_eq es:
+
+$$
+k_{eq} = \frac{k_1 k_2}{k_1 + k_2}
+$$
+
+Entonces, la deflexión \( \delta \) estática es:
+
+$$
+\delta = \frac{mg}{k_{eq}}
+$$
+
+La frecuencia natural del sistema es:
+
+$$
+\omega_n = \sqrt{\frac{k_{eq}}{m}}
+$$
+
+
+
 
 # 21/03/2025
 
