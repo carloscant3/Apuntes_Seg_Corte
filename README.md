@@ -37,6 +37,23 @@ F = B X' = b (X'_1 - X'_2)
 $$
 
 
+Tipos de friccion:
+
+- Friccion en seco.
+- Estatica.
+- Desplazamiento.
+- Rodamiento.
+
+
+$$
+**Sistema masa - Resorte - Amortiguador
+$$
+
+
+$$
+![image](https://github.com/user-attachments/assets/d964cf92-942f-4673-895b-9982b4991a87)
+$$
+
 
 # 17/03/2025
 
