@@ -54,8 +54,27 @@ $$
 
 Fenomeno fisico:
 
+Ley de hooke
+
+
 $$
 F_R = K_2 \cdot X
+$$
+
+
+Friccion viscosa
+
+
+$$
+F_f = K_1 \cdot V_m
+$$
+
+
+Leyes de Newton
+
+
+$$
+F = m \cdot a
 $$
 
 
