@@ -2,17 +2,17 @@
 
 
 $$
-José Manuel Ortiz Soler - 121769
+Jose   Manuel   Ortiz   Soler - 121769
 $$
 
 
 $$
-Nicolas Cortes Triana - 120883
+Nicolas   Cortes    Triana - 120883
 $$
 
 
 $$
-Carlos Andrés Cante Saavedra - 122248
+Carlos   Andres   Cante   Saavedra - 122248
 $$
 
 
