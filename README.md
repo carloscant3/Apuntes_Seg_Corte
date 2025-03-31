@@ -2,7 +2,7 @@
 
 
 $$
-Jose_Manuel   Ortiz   Soler - 121769
+Jose Manuel   Ortiz   Soler - 121769
 $$
 
 
@@ -85,6 +85,101 @@ Leyes de Newton
 
 $$
 F = m \cdot a
+$$
+
+
+$$
+**Ejemplo**
+$$
+
+Encuéntrese la constante de resorte equivalente para el sistema
+mostrado en la Figura y muéstrese que también puede obtenerse gráficamente
+como lo indica la Figura
+
+En los resortes en serie, la fuerza en cada resorte es la misma. 
+
+![image](https://github.com/user-attachments/assets/f0d9c716-37c9-4a7f-be57-5b7aff82fa74)
+
+
+$$
+k_1 y = F, \quad k_2 (x - y) = F
+$$
+
+
+La eliminación de \( y \) en estas dos ecuaciones resulta en:
+
+
+$$
+k_2 \left( x - \frac{F}{k_1} \right) = F
+$$
+
+
+o bien:
+
+
+$$
+k_2 x = F + \frac{k_2}{k_1} F = \frac{k_1 + k_2}{k_1} F
+$$
+
+
+La constante de resorte equivalente \( k_{eq} \) para este caso se encuentra entonces como:
+
+
+$$
+k_{eq} = \frac{F}{x} = \frac{k_1 k_2}{k_1 + k_2} = \frac{1}{\frac{1}{k_1} + \frac{1}{k_2}}
+$$
+
+
+---
+
+
+Para la solución gráfica, nótese que:
+
+
+$$
+\frac{AC}{PQ} = \frac{AB}{PB}, \quad \frac{BD}{PQ} = \frac{AB}{AP}
+$$
+
+
+de la cual:
+
+
+$$
+PB = \frac{AB \cdot PQ}{AC}, \quad AP = \frac{AB \cdot PQ}{BD}
+$$
+
+
+Puesto que \( AP + PB = AB \), tenemos:
+
+
+$$
+\frac{AB \cdot PQ}{BD} + \frac{AB \cdot PQ}{AC} = AB
+$$
+
+
+o bien:
+
+
+$$
+\frac{PQ}{BD} + \frac{PQ}{AC} = 1
+$$
+
+
+Resolviendo para \( PQ \), obtenemos:
+
+
+$$
+PQ = \frac{1}{\frac{1}{AC} + \frac{1}{BD}}
+$$
+
+
+De modo que si las longitudes AC + BD representan a las constantes de resorte k, y
+k,, respectivamente, entonces la longitud PX representa la constante de resorte
+equivalente k,,. Esto es
+
+
+$$
+\bar{PQ} = \frac{1}{\frac{1}{k_1} + \frac{1}{k_2}} = k_{eq}
 $$
 
 
