@@ -245,11 +245,12 @@ $$
 
 Las ecuaciones de estado quedan de la siguiente forma:
 
+$$
 ( d(z1)/dt ) = (  z2  )  
 ( d(z2)/dt ) = ( (1/m1) * ( u - b1*z2 - k1*z1 - k2*(z1 - z3) ) )  
 ( d(z3)/dt ) = (  z4  )  
 ( d(z4)/dt ) = ( (-k2/m2) * (z3 - z1) )  
-
+$$
 
 # 17/03/2025
 
