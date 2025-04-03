@@ -327,7 +327,7 @@ L\frac{d i_2}{dt} + R_2 I_2 + \frac{1}{C}\int (i_2 - i_1)\, dt &= 0
 \end{align*}
 $$
 
-Estas dos ecuaciones constiuyen un modelo matemtttico del circuito. 
+Estas dos ecuaciones constiuyen un modelo matematico del circuito. 
 
 $$
 Ejemplo 2
