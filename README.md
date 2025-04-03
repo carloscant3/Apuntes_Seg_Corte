@@ -337,5 +337,30 @@ $$
 
 # 31/03/2025
 
+$$
+Ejemplo 1
+$$
+
+Encuéntrense las corrientes i1, i2, i3 del circuito.
+![image](https://github.com/user-attachments/assets/17b7e82f-76d3-45f2-a69e-fad636d0ed22)
+
+Al aplicar la ley de voltajes y la ley de corrientes de Kirchhoff, tenemos:
+
+$$
+\begin{align*}
+12 - 10i_1 - 5i_3 &= 0 \\
+8 - 15i_2 - 5i_3 &= 0 \\
+i_1 + i_2 - i_3 &= 0
+\end{align*}
+$$
+
+Resolviéndolas para i1, i2, i3 dan:
+
+$$
+i_1 = \frac{8}{11} \, \text{A}, \quad i_2 = \frac{12}{55} \, \text{A}, \quad i_3 = \frac{52}{55} \, \text{A}
+$$
+
+Puesto que todos los valores de i resultaron positivos, las corrientes fluyen en las direcciones mostradas en el diagrama
+
 
 # 04/04/2025
