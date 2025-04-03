@@ -187,6 +187,12 @@ $$
 **Ejemplo 2**
 $$
 
+$$
+Hallar el modelo dinamico y las ecuaciones de estado del siguiente sistema masa-resorte-amostiguador de doble masa.
+$$
+
+
+
 
 # 17/03/2025
 
