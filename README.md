@@ -245,13 +245,21 @@ $$
 
 Ecuaciones de estado:
 
-$ \dot{z}_1 = z_2 $
+$$ 
+\dot{z}_1 = z_2 
+$$
 
-$ \dot{z}_2 = \frac{1}{m_1}\left( u - b_1 z_2 - k_1 z_1 - k_2\,(z_1 - z_3) \right) $
+$$
+\dot{z}_2 = \frac{1}{m_1}\left( u - b_1 z_2 - k_1 z_1 - k_2\,(z_1 - z_3) \right) 
+$$
 
-$ \dot{z}_3 = z_4 $
+$$ 
+\dot{z}_3 = z_4 
+$$
 
-$ \dot{z}_4 = -\frac{k_2}{m_2}\,(z_3 - z_1) $
+$$ 
+\dot{z}_4 = -\frac{k_2}{m_2}\,(z_3 - z_1) 
+$$
 
 # 17/03/2025
 
