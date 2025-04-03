@@ -243,6 +243,23 @@ $$
 z_4 = \dot{x}_2 \quad \text{(velocidad de } m_2 \text{)}
 $$
 
+Es decir que las ecuaciones de estado quedarian de la siguiente forma:
+
+$$
+\begin{pmatrix}
+\dot{z}_1 \\
+\dot{z}_2 \\
+\dot{z}_3 \\
+\dot{z}_4
+\end{pmatrix}
+=
+\begin{pmatrix}
+z_2 \\
+\frac{1}{m_1} \left( u - b_1 z_2 - k_1 z_1 - k_2 (z_1 - z_3) \right) \\
+z_4 \\
+-\frac{k_2}{m_2} (z_3 - z_1)
+\end{pmatrix}
+$$
 
 
 
