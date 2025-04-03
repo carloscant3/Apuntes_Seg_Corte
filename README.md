@@ -246,7 +246,7 @@ $$
 Es decir que las ecuaciones de estado quedarian de la siguiente forma:
 
 
-$$
+```math
 \begin{pmatrix}
 \dot{z}_1 \\
 \dot{z}_2 \\
@@ -260,8 +260,6 @@ z_2 \\
 z_4 \\
 -\frac{k_2}{m_2} (z_3 - z_1)
 \end{pmatrix}
-$$
-
 
 
 
