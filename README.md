@@ -198,8 +198,11 @@ Realizamos el diagrama de cuerpo libre
 
 ![image](https://github.com/user-attachments/assets/4983d32d-2632-4a54-899a-9993b89a037e)
 
-El modelo dinamico de la masa 1 quedaria:
+La ecuación de la masa 1 quedaria:
 
+$$
+m_1 \ddot{x}_1 + b_1 \dot{x}_1 + k_1 x_1 + k_2 (x_1 - x_2) = u
+$$
 
 # 17/03/2025
 
