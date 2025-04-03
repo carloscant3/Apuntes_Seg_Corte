@@ -192,8 +192,13 @@ Hallar el modelo dinamico y las ecuaciones de estado del siguiente sistema masa-
 
 ![image](https://github.com/user-attachments/assets/1b50ce14-a89d-439b-973d-c762d332e057)
 
+Para la masa No.1:
 
+Realizamos el diagrama de cuerpo libre
 
+![image](https://github.com/user-attachments/assets/4983d32d-2632-4a54-899a-9993b89a037e)
+
+El modelo dinamico de la masa 1 quedaria:
 
 
 # 17/03/2025
