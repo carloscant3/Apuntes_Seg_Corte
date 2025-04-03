@@ -245,13 +245,23 @@ $$
 
 Las ecuaciones de estado quedan de la siguiente forma:
 
-$$
-( d(z1)/dt ) = (  z2  )  
-( d(z2)/dt ) = ( (1/m1) * ( u - b1*z2 - k1*z1 - k2*(z1 - z3) ) )  
-( d(z3)/dt ) = (  z4  )  
-( d(z4)/dt ) = ( (-k2/m2) * (z3 - z1) )  
-$$
+Las ecuaciones de estado quedan de la siguiente forma:
 
+$$
+\begin{pmatrix}
+\dot{z}_1 \\
+\dot{z}_2 \\
+\dot{z}_3 \\
+\dot{z}_4
+\end{pmatrix}
+=
+\begin{pmatrix}
+z_2 \\
+\frac{1}{m_1} \left( u - b_1 z_2 - k_1 z_1 - k_2 (z_1 - z_3) \right) \\
+z_4 \\
+-\frac{k_2}{m_2} (z_3 - z_1)
+\end{pmatrix}
+$$
 # 17/03/2025
 
 $$
