@@ -281,6 +281,59 @@ $$
 
 # **Sistemas Electricos**
 
+**Voltaje**
+
+El voltaje en los sistemas eléctricos es análogo a la presión en
+los sistemas hidráulicos o neumáticos. Esta es la fuerza electromotriz requerida para producir un flujo de corriente en un alambre, es como la presibn que se requiere para producir un flujo de liquido o gas en una tubería.
+La unidad de voltaje es el volt (V). 
+
+**Corriente** 
+
+La corriente se refiere a la razón de cambio del flujo de carga. La unidad de corriente es el ampere. Si una carga de dq coulombs cruza
+un área dada en dt segundos.
+
+![image](https://github.com/user-attachments/assets/4e97def6-00f7-43bd-94af-8b5b15b41b08)
+
+
+**Elementos resistivos** 
+
+La Resistividad se define como el cambio en voltaje requerido para producir un cambio unitario en la corriente
+
+![image](https://github.com/user-attachments/assets/b6b5d7b8-9021-4deb-999c-1e4d05611b0b)
+
+
+**Elementos capacitivos** 
+
+Dos conductores separados por un medio no
+conductor (aislante o dieléctrico) forman un capacitor. De modo que dos
+placas metálicas separadas por un material eléctrico muy delgado forman
+un capacitor. Algunas veces el área se hace variable, como en un condensador de sintonización de un radio. 
+
+![image](https://github.com/user-attachments/assets/58baa72b-d1a5-4a36-a4de-a9a679c514a5)
+
+
+$$
+Ejemplo 1
+$$
+
+
+Dado el circuito que se muestra, obténgase un modelo matemhtico. Aquí las corrientes 4 e S son corrientes cíclicas.
+![image](https://github.com/user-attachments/assets/037c94bc-2464-444a-a09d-47adae258faa)
+
+$$
+\begin{align*}
+R_i I_1 + \frac{1}{C}\int (i_1 - i_3)\, dt &= E \\
+L\frac{d i_2}{dt} + R_2 I_2 + \frac{1}{C}\int (i_2 - i_1)\, dt &= 0
+\end{align*}
+$$
+
+Estas dos ecuaciones constiuyen un modelo matemtttico del circuito. 
+
+$$
+Ejemplo 2
+$$
+
+
 
 # 31/03/2025
 
