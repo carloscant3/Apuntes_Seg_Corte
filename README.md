@@ -225,6 +225,23 @@ $$
 m_2 \ddot{x}_2 + k_2 (x_2 - x_1) = 0
 $$
 
+Definimos las variables de estado:
+
+$$
+z_1 = x_1 \quad \text{(posición de } m_1 \text{)}
+$$
+
+$$
+z_2 = \dot{x}_1 \quad \text{(velocidad de } m_1 \text{)}
+$$
+
+$$
+z_3 = x_2 \quad \text{(posición de } m_2 \text{)}
+$$
+
+$$
+z_4 = \dot{x}_2 \quad \text{(velocidad de } m_2 \text{)}
+$$
 
 
 
