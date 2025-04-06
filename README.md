@@ -465,7 +465,9 @@ $$
 
 
 Dado el circuito que se muestra, obténgase un modelo matemhtico. Aquí las corrientes 4 e S son corrientes cíclicas.
-![image](https://github.com/user-attachments/assets/037c94bc-2464-444a-a09d-47adae258faa)
+
+![image](https://github.com/user-attachments/assets/5e9e9804-f5aa-4791-bc34-5a2e256a2575)
+
 
 $$
 \begin{align*}
