@@ -486,6 +486,9 @@ Análisis de circuito RLC con variables de estado
 
 En el siguiente circuito eléctrico RLC en serie-paralelo, se desea determinar cómo evolucionan la corriente \( i_2(t) \) que circula por la resistencia \( R_2 \) y el voltaje \( V_C(t) \) en el capacitor, con el paso del tiempo.
 
+![image](https://github.com/user-attachments/assets/06f0670d-2865-48c0-be8c-ef65ce22ff99)
+
+
 El circuito cuenta con:
 
 - Una fuente de voltaje continua de
