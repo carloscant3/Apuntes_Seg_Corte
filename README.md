@@ -306,7 +306,7 @@ Una masa 𝑚 m está suspendida mediante dos resortes, como se muestra en la fi
 
 ![image](https://github.com/user-attachments/assets/0a7f8fa8-3ab2-4051-918f-bc3d2eb5951c)
 
-### a) Deflexión estática \( \delta \)
+a) Deflexión estática \( \delta \)
 
 Considerando equilibrio estático:
 
@@ -316,8 +316,13 @@ $$
 
 Donde:
 
-- \( F_{k_1} = k_1 \cdot \delta \)
-- \( F_{k_2,\text{vertical}} = k_2 \cdot \delta \cdot \sin^2(\theta) \)
+$$
+F_{k_1} = k_1 \cdot \delta
+$$
+
+$$
+F_{k_{2,\text{vertical}}} = k_2 \cdot \delta \cdot \sin^2(\theta)
+$$
 
 Entonces:
 
@@ -331,9 +336,7 @@ $$
 \delta = \frac{mg}{k_1 + k_2 \cdot \sin^2(\theta)}
 $$
 
----
-
-### b) Frecuencia natural \( \omega_n \)
+b) Frecuencia natural \( \omega_n \)
 
 La constante equivalente del sistema en dirección vertical es:
 
@@ -346,6 +349,7 @@ Entonces, la frecuencia natural (en rad/s) es:
 $$
 \omega_n = \sqrt{\frac{k_{eq}}{m}} = \sqrt{\frac{k_1 + k_2 \cdot \sin^2(\theta)}{m}}
 $$
+
 # 21/03/2025
 
 **Sistemas Rotacionales**
