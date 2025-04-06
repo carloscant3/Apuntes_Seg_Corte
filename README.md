@@ -535,6 +535,83 @@ $$
 
 Se pide obtener las **ecuaciones diferenciales** que describen el comportamiento dinámico del sistema usando **variables de estado**.
 
+#### Variables de estado
+
+$$
+x(t) =
+\begin{bmatrix}
+i_2(t) \\
+V_C(t)
+\end{bmatrix}
+$$
+
+Ecuaciones dinámicas del sistema
+
+1. Derivada de \( i_2(t) \)**
+
+$$
+\frac{di_2}{dt} =
+\frac{1}{L} \left[
+V -
+\frac{R_1 R_2}{R_1 + R_2} i_2 +
+\frac{R_1}{R_1 + R_2} V_C -
+\frac{R_1}{R_1 + R_2} V
+\right]
+$$
+
+Sustituyendo valores:
+
+$$
+\frac{di_2}{dt} =
+10 -
+\frac{6}{5} i_2 +
+\frac{2}{5} V_C -
+4
+$$
+
+$$
+\Rightarrow \quad
+\frac{di_2}{dt} =
+6 - \frac{6}{5} i_2 + \frac{2}{5} V_C
+$$
+
+2. Derivada de \( V_C(t) \)**
+
+$$
+\frac{dV_C}{dt} =
+\frac{1}{C} \left[
+\frac{R_2}{R_1 + R_2} i_2 -
+\frac{1}{R_1 + R_2} V_C +
+\frac{1}{R_1 + R_2} V
+\right]
+$$
+
+Sustituyendo:
+
+$$
+\frac{dV_C}{dt} =
+2 \left(
+\frac{3}{5} i_2 -
+\frac{1}{5} V_C + 2
+\right)
+$$
+
+$$
+\Rightarrow \quad
+\frac{dV_C}{dt} =
+\frac{6}{5} i_2 - \frac{2}{5} V_C + 4
+$$
+
+
+Resultado final del sistema
+
+$$
+\begin{cases}
+\frac{di_2}{dt} = 6 - \frac{6}{5} i_2 + \frac{2}{5} V_C \\
+\frac{dV_C}{dt} = \frac{6}{5} i_2 - \frac{2}{5} V_C + 4
+\end{cases}
+$$
+
 
 # 31/03/2025
 
