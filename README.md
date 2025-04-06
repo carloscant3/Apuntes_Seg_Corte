@@ -130,9 +130,6 @@ k_{eq} = \frac{F}{x} = \frac{k_1 k_2}{k_1 + k_2} = \frac{1}{\frac{1}{k_1} + \fra
 $$
 
 
----
-
-
 Para la solución gráfica, nótese que:
 
 
@@ -307,7 +304,48 @@ $$
 
 Una masa 𝑚 m está suspendida mediante dos resortes, como se muestra en la figura. El primero de ellos, con constante elástica k1 ​ , está dispuesto de forma vertical y conectado al suelo. El segundo, con constante 𝑘2, está inclinado y sujeto a una estructura fija, formando un ángulo 𝜃 con la horizontal. Se pide determinar la deflexión vertical estática 𝛿 de la masa, medida desde la posición en la cual los resortes no están deformados. Asimismo, se solicita calcular la frecuencia natural de vibración del sistema para pequeñas oscilaciones en dirección vertical.
 
+![image](https://github.com/user-attachments/assets/0a7f8fa8-3ab2-4051-918f-bc3d2eb5951c)
 
+### a) Deflexión estática \( \delta \)
+
+Considerando equilibrio estático:
+
+$$
+mg = F_{k_1} + F_{k_2, \text{vertical}}
+$$
+
+Donde:
+
+- \( F_{k_1} = k_1 \cdot \delta \)
+- \( F_{k_2,\text{vertical}} = k_2 \cdot \delta \cdot \sin^2(\theta) \)
+
+Entonces:
+
+$$
+mg = \delta (k_1 + k_2 \cdot \sin^2(\theta))
+$$
+
+Despejando \( \delta \):
+
+$$
+\delta = \frac{mg}{k_1 + k_2 \cdot \sin^2(\theta)}
+$$
+
+---
+
+### b) Frecuencia natural \( \omega_n \)
+
+La constante equivalente del sistema en dirección vertical es:
+
+$$
+k_{eq} = k_1 + k_2 \cdot \sin^2(\theta)
+$$
+
+Entonces, la frecuencia natural (en rad/s) es:
+
+$$
+\omega_n = \sqrt{\frac{k_{eq}}{m}} = \sqrt{\frac{k_1 + k_2 \cdot \sin^2(\theta)}{m}}
+$$
 # 21/03/2025
 
 **Sistemas Rotacionales**
