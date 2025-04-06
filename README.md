@@ -680,7 +680,7 @@ $$
 5 - 12i_2 - 4i_3 = 0 \Rightarrow 12i_2 + 4i_3 = 5 \Rightarrow i_2 = \frac{5 - 4i_3}{12}
 $$
 
-3. Sustituyendo \( i_1 \) e \( i_2 \) en la tercera ecuación:
+3. Sustituyendo i1 e i2 en la tercera ecuación:
 
 $$
 \left(\frac{10 - 4i_3}{6}\right) + \left(\frac{5 - 4i_3}{12}\right) - i_3 = 0
@@ -700,7 +700,7 @@ $$
 25 - 24i_3 = 0 \Rightarrow i_3 = \frac{25}{24} \, A
 $$
 
-4. Reemplazamos \( i_3 \) para encontrar \( i_1 \) y \( i_2 \):
+4. Reemplazamos i3 para encontrar i1 y i2:
 
 $$
 i_1 = \frac{10 - 4\left(\frac{25}{24}\right)}{6} = \frac{10 - \frac{100}{24}}{6} = \frac{\frac{240 - 100}{24}}{6} = \frac{\frac{140}{24}}{6} = \frac{140}{144} = \frac{35}{36} \, A
