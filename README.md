@@ -396,6 +396,30 @@ $$
 **Ejemplo 2**
 $$
 
+Supongamos que se tiene una rueda maciza, como las de un carro de supermercado, con un radio de 0.4 metros y una masa de 20 kg. Esta rueda está montada sobre un eje horizontal sin fricción y se le aplica un par constante de 8 N·m. Se quiere saber cuál será su aceleración angular cuando se le aplica ese par.
+
+El momento de inercia \( J \) de una rueda maciza alrededor de su eje es:
+
+$$
+J = \frac{1}{2} m R^2 = \frac{1}{2} \cdot 20 \cdot (0.4)^2 = 1.6 \, \text{kg·m}^2
+$$
+
+Usamos la ecuación del movimiento rotacional:
+
+$$
+T = J \ddot{\theta} \Rightarrow \ddot{\theta} = \frac{T}{J}
+$$
+
+Entonces:
+
+$$
+\ddot{\theta} = \frac{8}{1.6} = 5 \, \text{rad/s}^2
+$$
+
+Por lo tanto, la aceleración angular de la rueda es de \( 5 \, \text{rad/s}^2 \).
+
+
+
 
 # 28/03/2025
 
