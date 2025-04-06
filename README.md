@@ -277,7 +277,8 @@ constante de resorte k2. Determínese la deflexiíin estática 6 de la masa cuan
 mide desde la posición en la cual el resorte no tiene carga. Determínese también la frecuencia natural del sistema. 
 
 
-![image](https://github.com/user-attachments/assets/c8190496-ec0a-49a3-9278-57a1cd5048b5)
+![image](https://github.com/user-attachments/assets/0083812d-c6ed-4d59-8f4e-787e0a363375)
+
 
 
 En cierto sentido los dos resortes están conectados en serie, la constante
