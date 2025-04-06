@@ -197,7 +197,8 @@ Para la masa No.1:
 
 Realizamos el diagrama de cuerpo libre
 
-![image](https://github.com/user-attachments/assets/4983d32d-2632-4a54-899a-9993b89a037e)
+![image](https://github.com/user-attachments/assets/4c8e01db-faac-4180-8472-b4bdd1793f5f)
+
 
 La ecuación de la masa 1 quedaria:
 
@@ -209,7 +210,8 @@ Para la masa No.2:
 
 Realizamos el diagrama de cuerpo libre:
 
-![image](https://github.com/user-attachments/assets/88330a1d-6e34-48ee-bdee-d206fa9e922f)
+![image](https://github.com/user-attachments/assets/16ffda94-e334-411c-a5e6-80619dd24162)
+
 
 La ecuación de la masa 2 quedaria: 
 
