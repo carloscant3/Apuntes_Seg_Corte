@@ -481,7 +481,50 @@ Estas dos ecuaciones constiuyen un modelo matematico del circuito.
 $$
 Ejemplo 2
 $$
+Análisis de circuito RLC con variables de estado
 
+En el siguiente circuito eléctrico RLC en serie-paralelo, se desea determinar cómo evolucionan la corriente \( i_2(t) \) que circula por la resistencia \( R_2 \) y el voltaje \( V_C(t) \) en el capacitor, con el paso del tiempo.
+
+El circuito cuenta con:
+
+- Una fuente de voltaje continua de
+$$
+\( V(t) = 10\, \text{V} \)
+$$
+- Una resistencia
+
+$$
+\( R_1 = 2\, \Omega \)
+$$
+
+en serie con una inductancia
+
+$$
+\( L = 1\, \text{H} \)
+$$
+- Una segunda resistencia
+$$
+\( R_2 = 3\, \Omega \)
+$$
+
+y un capacitor
+
+$$
+\( C = 0.5\, \text{F} \)
+$$
+
+en paralelo con respecto a la bobina
+
+Las condiciones iniciales del sistema son:  
+$$
+\( i_2(0) = 0\, \text{A} \)
+$$ 
+
+$$
+\( V_C(0) = 0\, \text{V} \)
+$$
+
+Se pide obtener las **ecuaciones diferenciales** que describen el comportamiento dinámico del sistema usando **variables de estado**.
 
 
 # 31/03/2025
