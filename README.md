@@ -98,7 +98,7 @@ como lo indica la Figura
 
 En los resortes en serie, la fuerza en cada resorte es la misma. 
 
-![image](https://github.com/user-attachments/assets/f0d9c716-37c9-4a7f-be57-5b7aff82fa74)
+![image](https://github.com/user-attachments/assets/cfb5415b-e309-486b-b972-f3fbbfdbc37a)
 
 
 $$
