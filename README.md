@@ -190,7 +190,8 @@ $$
 
 Hallar el modelo dinamico y las ecuaciones de estado del siguiente sistema masa-resorte-amostiguador de doble masa.
 
-![image](https://github.com/user-attachments/assets/1b50ce14-a89d-439b-973d-c762d332e057)
+![image](https://github.com/user-attachments/assets/40e52605-f1d3-4dac-9cf3-ab9d1d34724d)
+
 
 Para la masa No.1:
 
