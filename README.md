@@ -505,7 +505,9 @@ en serie con una inductancia
 $$
 \( L = 1\, \text{H} \)
 $$
+
 - Una segunda resistencia
+
 $$
 \( R_2 = 3\, \Omega \)
 $$
@@ -519,6 +521,7 @@ $$
 en paralelo con respecto a la bobina
 
 Las condiciones iniciales del sistema son:  
+
 $$
 \( i_2(0) = 0\, \text{A} \)
 $$ 
