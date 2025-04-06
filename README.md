@@ -620,7 +620,9 @@ Ejemplo 1
 $$
 
 Encuéntrense las corrientes i1, i2, i3 del circuito.
-![image](https://github.com/user-attachments/assets/17b7e82f-76d3-45f2-a69e-fad636d0ed22)
+
+![image](https://github.com/user-attachments/assets/e783f91d-e319-4fc0-9114-8d66db6e89ed)
+
 
 Al aplicar la ley de voltajes y la ley de corrientes de Kirchhoff, tenemos:
 
