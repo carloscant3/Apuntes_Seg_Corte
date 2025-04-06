@@ -416,8 +416,11 @@ $$
 \ddot{\theta} = \frac{8}{1.6} = 5 \, \text{rad/s}^2
 $$
 
-Por lo tanto, la aceleración angular de la rueda es de \( 5 \, \text{rad/s}^2 \).
+Por lo tanto, la aceleración angular de la rueda es de
 
+$$
+\( 5 \, \text{rad/s}^2 \).
+$$
 
 
 
