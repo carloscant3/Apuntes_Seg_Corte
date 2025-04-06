@@ -642,5 +642,77 @@ $$
 
 Puesto que todos los valores de i resultaron positivos, las corrientes fluyen en las direcciones mostradas en el diagrama
 
+$$
+Ejemplo 2
+$$
 
-# 04/04/2025
+Encontrar las corrientes i1, i2 y i3 en el siguiente circuito.
+
+Una batería de 10V está conectada en la malla izquierda con resistencias de 6Ω y 4Ω, y una batería de 5V en la malla derecha con una resistencia de 12Ω. Encuentra las corrientes i1, i2, e i_3 utilizando la Ley de Kirchhoff de Voltajes (LKV) y la Ley de Corrientes (LKC).
+
+![image](https://github.com/user-attachments/assets/87afaeb1-0b6a-4397-bee6-3dbca1b4875e)
+
+Al aplicar la ley de voltajes y corrientes de Kirchhoff, se obtienen las siguientes ecuaciones:
+
+$$
+10 - 6i_1 - 4i_3 = 0
+$$
+
+$$
+5 - 12i_2 - 4i_3 = 0
+$$
+
+$$
+i_1 + i_2 - i_3 = 0
+$$
+
+Resolviendo el sistema de ecuaciones:
+
+1. De la primera ecuación:
+
+$$
+10 - 6i_1 - 4i_3 = 0 \Rightarrow 6i_1 + 4i_3 = 10 \Rightarrow i_1 = \frac{10 - 4i_3}{6}
+$$
+
+2. De la segunda ecuación:
+
+$$
+5 - 12i_2 - 4i_3 = 0 \Rightarrow 12i_2 + 4i_3 = 5 \Rightarrow i_2 = \frac{5 - 4i_3}{12}
+$$
+
+3. Sustituyendo \( i_1 \) e \( i_2 \) en la tercera ecuación:
+
+$$
+\left(\frac{10 - 4i_3}{6}\right) + \left(\frac{5 - 4i_3}{12}\right) - i_3 = 0
+$$
+
+Multiplicamos toda la ecuación por 12 para eliminar denominadores:
+
+$$
+2(10 - 4i_3) + (5 - 4i_3) - 12i_3 = 0
+$$
+
+$$
+20 - 8i_3 + 5 - 4i_3 - 12i_3 = 0
+$$
+
+$$
+25 - 24i_3 = 0 \Rightarrow i_3 = \frac{25}{24} \, A
+$$
+
+4. Reemplazamos \( i_3 \) para encontrar \( i_1 \) y \( i_2 \):
+
+$$
+i_1 = \frac{10 - 4\left(\frac{25}{24}\right)}{6} = \frac{10 - \frac{100}{24}}{6} = \frac{\frac{240 - 100}{24}}{6} = \frac{\frac{140}{24}}{6} = \frac{140}{144} = \frac{35}{36} \, A
+$$
+
+$$
+i_2 = \frac{5 - 4\left(\frac{25}{24}\right)}{12} = \frac{5 - \frac{100}{24}}{12} = \frac{\frac{120 - 100}{24}}{12} = \frac{\frac{20}{24}}{12} = \frac{20}{288} = \frac{5}{72} \, A
+$$
+
+**Solución final:**
+
+$$
+i_1 = \frac{35}{36} \, A \quad ; \quad i_2 = \frac{5}{72} \, A \quad ; \quad i_3 = \frac{25}{24} \, A
+$$
+
