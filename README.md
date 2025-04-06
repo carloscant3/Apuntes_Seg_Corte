@@ -481,6 +481,7 @@ Estas dos ecuaciones constiuyen un modelo matematico del circuito.
 $$
 Ejemplo 2
 $$
+
 Análisis de circuito RLC con variables de estado
 
 En el siguiente circuito eléctrico RLC en serie-paralelo, se desea determinar cómo evolucionan la corriente \( i_2(t) \) que circula por la resistencia \( R_2 \) y el voltaje \( V_C(t) \) en el capacitor, con el paso del tiempo.
@@ -488,9 +489,11 @@ En el siguiente circuito eléctrico RLC en serie-paralelo, se desea determinar c
 El circuito cuenta con:
 
 - Una fuente de voltaje continua de
+
 $$
 \( V(t) = 10\, \text{V} \)
 $$
+
 - Una resistencia
 
 $$
