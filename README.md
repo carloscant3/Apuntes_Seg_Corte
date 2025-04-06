@@ -305,6 +305,7 @@ $$
 **Ejemplo 2**
 $$
 
+Una masa 𝑚 m está suspendida mediante dos resortes, como se muestra en la figura. El primero de ellos, con constante elástica k1 ​ , está dispuesto de forma vertical y conectado al suelo. El segundo, con constante 𝑘2, está inclinado y sujeto a una estructura fija, formando un ángulo 𝜃 con la horizontal. Se pide determinar la deflexión vertical estática 𝛿 de la masa, medida desde la posición en la cual los resortes no están deformados. Asimismo, se solicita calcular la frecuencia natural de vibración del sistema para pequeñas oscilaciones en dirección vertical.
 
 
 # 21/03/2025
