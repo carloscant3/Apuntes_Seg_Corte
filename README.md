@@ -717,6 +717,11 @@ i_1 = \frac{35}{36} \, A \quad ; \quad i_2 = \frac{5}{72} \, A \quad ; \quad i_3
 $$
 
 
+# Resolución de diagrama sistema Mecanico en ODE45
+
+
+
+
 # Resolución de diagrama sistema electrico en ODE45
 
 
@@ -769,3 +774,8 @@ end
 **GRAFICA**
 
 ![image](https://github.com/user-attachments/assets/5e639b15-100e-4097-8f0b-a9204126e3a7)
+
+
+# Conclución
+
+Después de ver todos estos temas, uno se da cuenta de que los sistemas dinámicos están en todas partes: desde un simple sistema masa-resorte-amortiguador que ayuda a entender cómo se mueve algo con fuerzas y fricción, hasta cosas más aplicadas como los sistemas rotacionales que explican motores o discos, y los eléctricos, donde todo se parece mucho a los mecánicos pero con voltajes y corrientes. Incluso al ver un amplificador no inversor, se nota cómo se pueden controlar señales sin que se inviertan, lo cual es súper útil en electrónica. En resumen, todos estos sistemas ayudan a modelar y predecir el comportamiento de cosas reales, y aunque parezcan diferentes, al final se pueden analizar de forma parecida usando ecuaciones diferenciales.
