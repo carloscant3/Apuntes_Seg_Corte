@@ -716,3 +716,56 @@ $$
 i_1 = \frac{35}{36} \, A \quad ; \quad i_2 = \frac{5}{72} \, A \quad ; \quad i_3 = \frac{25}{24} \, A
 $$
 
+
+# Resolución de diagrama sistema electrico en ODE45
+
+
+![image](https://github.com/user-attachments/assets/0f319ea5-fbf5-4b06-a5b7-e4d5cf363026)
+
+
+**Codigo**
+
+function rc_cascade_ode45
+    % Parámetros
+    R1 = 1e3;    % Ohms
+    R2 = 1e3;
+    C1 = 1e-6;   % Faradios
+    C2 = 1e-6;
+
+    % Intervalo de tiempo
+    tspan = [0 0.05];  % 50 ms
+
+    % Condiciones iniciales
+    v1_0 = 0;
+    v2_0 = 0;
+    y0 = [v1_0; v2_0];
+
+    % Entrada (puede cambiarla a senoidal o cuadrada)
+    ei = @(t) 1 * (t >= 0);  % Escalón unitario
+
+    % Resolver sistema
+    [t, y] = ode45(@(t, y) odefun(t, y, R1, R2, C1, C2, ei), tspan, y0);
+
+    % Graficar
+    plot(t, y(:,1), 'b', t, y(:,2), 'r')
+    legend('v_1(t)', 'v_2(t) = e_o(t)')
+    xlabel('Tiempo [s]')
+    ylabel('Voltaje [V]')
+    title('Respuesta del filtro RC en cascada')
+    grid on
+end
+
+function dydt = odefun(t, y, R1, R2, C1, C2, ei)
+    v1 = y(1);
+    v2 = y(2);
+    input = ei(t);
+
+    dv1dt = (1/C1) * ((input - v1)/R1 - (v1 - v2)/R2);
+    dv2dt = (1/C2) * ((v1 - v2)/R2);
+
+    dydt = [dv1dt; dv2dt];
+end
+
+**GRAFICA**
+
+![image](https://github.com/user-attachments/assets/5e639b15-100e-4097-8f0b-a9204126e3a7)
