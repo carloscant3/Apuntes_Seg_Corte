@@ -719,7 +719,62 @@ $$
 
 # Resolución de diagrama sistema Mecanico en ODE45
 
+![image](https://github.com/user-attachments/assets/d5b8ecfa-4700-44b5-9252-d88af726cfa2)
 
+**Codigo**
+
+function sistema_masas
+    % Parámetros
+    k1 = 0.2;
+    b = 0.1;
+    m1 = 10;
+    k2 = 0.3;
+    m2 = 5;
+    g = 9.81;
+
+    % Condiciones iniciales: [x1, v1, x2, v2]
+    Y0 = [0; 0; 0; 0];
+
+    % Tiempo de simulación
+    tspan = [0 10];
+
+    % Resolver el sistema
+    [t, Y] = ode45(@(t, Y) sistema(t, Y, k1, b, m1, k2, m2, g), tspan, Y0);
+
+    % Graficar resultados
+    figure;
+    plot(t, Y(:,1), 'b', t, Y(:,3), 'r');
+    legend('x_1(t)', 'x_2(t)');
+    xlabel('Tiempo (s)');
+    ylabel('Posición (m)');
+    title('Movimiento de las masas acopladas');
+end
+
+function dYdt = sistema(t, Y, k1, b, m1, k2, m2, g)
+    % Variables del estado
+    x1 = Y(1);
+    v1 = Y(2);
+    x2 = Y(3);
+    v2 = Y(4);
+
+    % Ecuaciones del sistema
+    dx1dt = v1;
+    dv1dt = (-k1*x1 - b*v1 - k2*(x1 - x2) + m1*g) / m1;
+
+    dx2dt = v2;
+    dv2dt = (-k2*(x2 - x1) - m2*g) / m2;
+
+    % Vector de derivadas
+    dYdt = [dx1dt; dv1dt; dx2dt; dv2dt];
+end
+
+**Grafica**
+
+![image](https://github.com/user-attachments/assets/16a364d4-02a9-4c80-abf0-d5dfe23abbbd)
+
+**Conclusión:**
+
+La simulación del sistema de masas acopladas mostró que, debido a diferencias en masas y constantes de los resortes, la masa más liviana (m₂) se desplaza más rápidamente bajo la gravedad, evidenciando la influencia mutua entre las masas y el comportamiento típico de un sistema de segundo orden con acoplamiento. Esto refuerza la importancia de la inercia y las fuerzas de restitución en sistemas vibratorios.
 
 
 # Resolución de diagrama sistema electrico en ODE45
